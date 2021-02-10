@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  .logo {
+    width: 164.19px;
+    height: 164.19px;
+    img {
+      width: 100%;
+    }
+  }
+  .body {
+    .heading {
+      margin: 0;
+      font-size: 40px;
+    }
+    .top-section {
+      display: flex;
+      align-items: center;
+      height: 250px;
+      .left {
+        .speed-count {
+          font-size: 280px;
+        }
+      }
+      .right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .speed-measure {
+          font-size: 70px;
+          font-weight: 700;
+        }
+        .reload {
+          cursor: pointer;
+          margin-top: 10px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 65px;
+          height: 65px;
+          border: 3px solid #2ab72a;
+          border-radius: 50%;
+          .icon-block {
+            font-size: 35px;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    .showmore-btn {
+      background: none;
+      outline: none;
+      border: 1px solid #ccc;
+      color: #555;
+      font-size: 22px;
+      padding: 8px 20px;
+      border-radius: 10px;
+      &:hover {
+        cursor: pointer;
+        border-color: #0092e1;
+        color: #0092e1;
+      }
+    }
+    .social-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .icon-container {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background: #444;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        .icon-block {
+          font-size: 25px;
+          color: #fff;
+        }
+        &:hover {
+          cursor: pointer;
+          background: #0092e1;
+        }
+      }
+    }
+    .small-logo {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-right: 20px;
+      box-sizing: border-box;
+      img {
+        width: 150px;
+      }
+    }
+  }
+}
